@@ -28,7 +28,7 @@ void CHC_Laser::Draw() {
 	glEnable(GL_BLEND);
 	glDepthMask(GL_FALSE);
 
-	glColor4f(SEP(color), 0.5);
+	glColor4f(SEP(color), 0.3);
 	glBegin(GL_QUADS);
 		for (GLfloat i = 0; i < acos(-1.0); i += 0.5) {
 			GLfloat y = cos(i) * radius;
